@@ -12,8 +12,8 @@
 <style type="text/css">
 @import url("<spring:url value="/css/main.css"/>");</style>
 
-<title>smartchoice Online Store</title>
-
+<title>Smartchoice Online Store</title>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
 <body>
 	<%@ include file="headerClient.jsp"%>
@@ -31,13 +31,13 @@
 	</div>
 
 	<div id="global">
-		<h2>Items in the Cart</h2>
+		<h2>Items in the Cart2</h2>
 
 		<%
 			int sn = 0;
 		%>
-		<table border="" style="width: 100%">
-			<tr>
+		<table border="" style="width: 100%"  class="w3-table w3-striped w3-bordered w3-card-4">
+			<tr class="w3-blue">
 				<th>SN</th>
 				<th>Product</th>
 				<th>Quantity</th>
@@ -57,7 +57,7 @@
 
 			</c:forEach>
 		</table>
-
+		<br>
 
 		<div align="left">
 			<input type="button" value="Add Account"

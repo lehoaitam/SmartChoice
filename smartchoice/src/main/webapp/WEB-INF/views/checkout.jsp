@@ -7,7 +7,7 @@
 <head>
 
 <title>smartchoice Online Store</title>
-
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
 <body>
 	<%@ include file="headerClient.jsp"%>
@@ -21,8 +21,8 @@
 		<%
 			int sn = 0;
 		%>
-		<table border="" style="width: 100%, min-height=300px">
-			<tr>
+		<table border="" style="width: 100%, min-height=300px"  class="w3-table w3-striped w3-bordered w3-card-4">
+			<tr class="w3-blue">
 				<th>SN</th>
 				<th>Product</th>
 				<th>Quantity</th>
