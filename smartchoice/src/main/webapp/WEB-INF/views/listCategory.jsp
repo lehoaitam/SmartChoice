@@ -3,8 +3,8 @@
 <p> ${message} </p> 
 <section class="container">
 		<div class="row">
-			<table width=97%  border="1"  style="margin:20px">
-			<tr>
+			<table width=97%  border="1"  style="margin:20px" class="w3-table w3-striped w3-bordered w3-card-4">
+			<tr class="w3-blue">
 			<td>Id</td>
 			<td>Category</td>
 			<td>Action</td>
