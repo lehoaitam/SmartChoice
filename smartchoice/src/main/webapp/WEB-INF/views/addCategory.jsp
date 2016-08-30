@@ -6,7 +6,7 @@
 <title>Smartchoice Online Store</title>
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
-<body>
+<body  class="w3-container">
 <form:form  modelAttribute="addCategory" action="addCategory" >
 <form:errors path="*" cssStyle="Color:RED"></form:errors>
 <fieldset>

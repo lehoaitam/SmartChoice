@@ -15,7 +15,7 @@
 <title>Smartchoice Online Store</title>
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
-<body>
+<body  class="w3-container">
 	<%@ include file="headerClient.jsp"%>
 
 

@@ -1,5 +1,5 @@
 
-<div style="text-align:center" class="w3-container w3-blue">
+<div style="text-align:center" class="w3-blue">
 <h1>Smartchoice Online Store</h1>
 </div>
 <div style="float: right">

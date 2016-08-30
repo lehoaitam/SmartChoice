@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>404 error</title>
   </head>
-  <body>
+  <body  class="w3-container">
 
 <div>
 

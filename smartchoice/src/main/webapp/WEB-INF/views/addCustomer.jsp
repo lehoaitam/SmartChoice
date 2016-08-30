@@ -10,7 +10,7 @@
 @import url(css/registration.css);
 </style>
 </head>
-<body>
+<body  class="w3-container">
 	<%@ include file="headerClient.jsp"%>
 	<div class="wrapper">
 		<spring:url value="/customer/saveCustomer" var="saveCustomer">

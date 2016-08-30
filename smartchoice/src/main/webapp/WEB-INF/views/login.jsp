@@ -14,9 +14,9 @@
 
 </style>
 </head>
-<body>
+<body class="w3-container">
 	<div  id="main">
-		<div class="w3-container w3-blue">
+		<div class="w3-blue">
 			
 				<h1>Smartchoice Online Store</h1>
 		
