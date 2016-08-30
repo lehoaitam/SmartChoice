@@ -12,15 +12,17 @@
 	src="<spring:url value="/resource/js/cart.js"/>"></script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
-<body>
+<body class="w3-container">
 	<%@ include file="headerClient.jsp"%>
 	<table width="100%" border="1"
-		style="margin-top: 50px; min-height: 400px">
+		style="margin-top: 50px; min-height: 400px" class="w3-table w3-striped w3-bordered w3-card-4">
 		<tr>
-			<td width="20%" valign="top"><table width="100%" border="1">
-					<tr>
-						<td class="header">Category</td>
+			<td width="20%" valign="top">
+				<table width="100%" border="1" class="w3-table w3-striped w3-bordered w3-card-4">
+					<tr class="w3-blue">
+						<td>Category</td>
 					</tr>
 
 					<c:forEach var="category" items="${categories}">
@@ -28,11 +30,12 @@
 							<td><a href="${category.id}">${category.type}</a></td>
 						</tr>
 					</c:forEach>
-				</table></td>
+				</table>
+			</td>
 			<td width="60%" valign="top">
 				<form id="products">
 
-					<table>
+					<table  class="w3-table w3-striped w3-bordered w3-card-4">
 						<c:forEach var="product" items="${products}">
 							<tr>
 								<td><img height="100px" width="100px"
@@ -60,12 +63,12 @@
 			</td>
 			<td width="20%" valign="top">
 				<form id="lineitem">
-					<table>
+					<table  class="w3-table w3-striped w3-bordered w3-card-4">
 
 						<c:if test="${not empty cart.items}">
 							<h3>Your Shopping cart</h3>
 
-							<tr>
+							<tr class="w3-blue">
 
 								<th>Qty</th>
 								<th>Product</th>
