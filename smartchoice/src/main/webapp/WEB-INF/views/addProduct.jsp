@@ -5,7 +5,7 @@
 <fieldset>
           <p>
             <label class="addProductLabel" for="type"><spring:message code="product.type" /> </label>
-				<form:select path="category.id" id="category">
+				<form:select path="category.id" id="category" >
 					<c:forEach items="${category}" var="type">
 						<form:option value="${type.id}" label="${type.type}" />
 					</c:forEach>
