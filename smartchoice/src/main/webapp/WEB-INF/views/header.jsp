@@ -21,7 +21,8 @@
 	<spring:url value="/logout" var="logout">
 	</spring:url>
 	<div id="list1">
-		<ul>
+		<!-- 
+		<ul >
 			<li><a
 				href="${pageContext.request.contextPath}/admin/listCategory">List
 					Category</a>|</li>
@@ -31,10 +32,16 @@
 			<li><a
 				href="${pageContext.request.contextPath}/admin/addProduct">Add
 					Product</a></li>|
-			<li>Language: [<a href="?language=en">English</a> | <a
-				href="?language=fn_FN">French</a>]
+			<li>Language: [<a href="?language=en">English</a> | <a href="?language=fn_FN">French</a>]
 			</li>
 
 			<li><a href="${logout}">Logout</a></li>
+		</ul>
+		-->
+		<ul class="w3-navbar w3-border w3-light-grey">
+		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/listCategory">List Category</a></li>
+		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/addCategory">Add Category</a></li>
+		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/addProduct">Add Product</a></li>
+		  <li><a class="w3-hover-blue" href="${logout}">Log out</a></li>
 		</ul>
 	</div>

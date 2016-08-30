@@ -16,10 +16,13 @@
 					<td>${category.id}</td>
 					<td>${category.type}</td>
 					
-					<td><a href="editCategory/${category.id}">Edit</a> | 
-					<a href="deleteCategory/${category.id}">Delete</a></a> |
-					<a href="listproduct/${category.id}">Details</a></a>
-					
+					<td>
+						<ul class="w3-navbar">
+							<li><a href="editCategory/${category.id}">Edit</a> </li> 
+							<li><a href="deleteCategory/${category.id}">Delete</a></a></li>
+							<li><a href="listproduct/${category.id}">Details</a></a></li>
+						</ul>
+						
 					</td>
 					
 		
