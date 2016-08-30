@@ -1,5 +1,6 @@
-<div style="height:100px;width:100%">
-<p style="text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;"><i>smartchoice Dev Team. &copy; 2015</i></p>
+<br>
+<div class="w3-container w3-blue">
+	<p style="vertical-align:middle;text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;color:#FFFFFF;">Smartchoice Dev Team. &copy; 2016</p>
 </div>
 <style>
 .header{
