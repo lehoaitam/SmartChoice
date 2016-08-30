@@ -3,7 +3,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>smartchoice Online Store</title>
+<title>Smartchoice Online Store</title>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
 <body>
 <form:form  modelAttribute="addCategory" action="addCategory" >
@@ -12,12 +13,13 @@
         
         <p>
             <label for="type"><spring:message code="category.type" /> </label>
-            <form:input path="type" id="type"  />
+            <br>
+            <form:input path="type" id="type"  class="w3-input w3-border w3-round" style="width: 250px;border-color: blue;" />
             
         </p>    
         <p id="buttons">
-            <input name="reset" type="reset" >
-            <input name="submit" type="submit"  value="Add Category">
+            <input name="reset" type="reset" class="w3-btn w3-white w3-border w3-border-blue w3-round"  >
+            <input name="submit" type="submit"  value="Add Category" class="w3-btn w3-white w3-border w3-border-blue w3-round" >
         </p>
        
     </fieldset>

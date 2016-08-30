@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>smartchoice Online Store</title>
+<title>Smartchoice Online Store</title>
 <script type="text/javascript"
 	src="<spring:url value="/resource/js/cart.js"/>"></script>
 <script
