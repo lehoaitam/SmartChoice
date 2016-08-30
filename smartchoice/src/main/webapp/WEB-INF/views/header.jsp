@@ -13,10 +13,10 @@
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 </head>
 <body>
-	<div
+	<div class="w3-container w3-blue"
 		style="border: 1px solid gray; background: #999999; height: 100px; position: absolute; top: 0px; width: 100%">
 		<p
-			style="text-align: center; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #FFFFFF; font-size: 26px">smartchoice Online Store</p>
+			style="text-align: center; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #FFFFFF; font-size: 26px">Smartchoice Online Store</p>
 	</div>
 	<spring:url value="/logout" var="logout">
 	</spring:url>

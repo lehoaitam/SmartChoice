@@ -50,8 +50,8 @@
         </p>
 			   
         <p id="buttons">
-            <input name="reset" type="reset" >
-            <input name="submit" type="submit"  value="Add Product">
+            <input name="reset" type="reset" class="w3-btn w3-white w3-border w3-border-blue w3-round"  >
+            <input name="submit" type="submit"  value="Add Product" class="w3-btn w3-white w3-border w3-border-blue w3-round" >
         </p>
        
     </fieldset>
