@@ -10,7 +10,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Smartchoice Online Store</title>
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">   -->
+	<link rel="stylesheet" href="<spring:url value="/resource/js/w3.css"/>">
 <style>
 .addProductLabel{
     display:inline-block;

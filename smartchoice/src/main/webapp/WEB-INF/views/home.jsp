@@ -12,7 +12,8 @@
 	src="<spring:url value="/resource/js/cart.js"/>"></script>
 <script
 	src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
-	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+	<!--<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">   -->
+	<link rel="stylesheet" href="<spring:url value="/resource/js/w3.css"/>">
 </head>
 <body class="w3-container">
 	<%@ include file="headerClient.jsp"%>
