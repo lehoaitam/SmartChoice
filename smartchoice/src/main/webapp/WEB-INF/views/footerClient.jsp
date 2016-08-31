@@ -1,13 +1,16 @@
-<div style="height:100px;width:100%">
-<p style="text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;"><i>Smart Coders Dev Team. &copy; 2016</i></p>
+<!-- <div class="w3-container w3-blue" style="border:1px solid gray;background:#999999;height:100px;width:100%">
+<p style="vertical-align:middle;text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;color:#FFFFFF;">Smartchoice Dev Team. &copy; 2016</p>
+</div> -->
+<div class="w3-container w3-blue">
+	<p style="vertical-align:middle;text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;color:#FFFFFF;">Smart Coders Dev Team. &copy; 2016</p>
 </div>
 <style>
-.header{
-font-size:12px;
-font-weight:bold;
-font-family:Verdana, Arial, Helvetica, sans-serif;
-background:#999999;
-}
+#list1 {margin-top:120px;width:100%;text-align:left;font-size: 12px;font-weight: bold;font-family: verdana; }
+#list1 ul { list-style:none; text-align:center; border-top:1px solid #eee; border-bottom:1px solid #eee; padding:10px 0; }
+#list1 ul li { display:inline; text-transform:uppercase; padding:0 10px; }
+#list1 ul li a { text-decoration:none; color:#000033; }
+#list1 ul li a:hover { text-decoration:underline; }
+
 table {
     width:100%;
 }
@@ -30,3 +33,7 @@ table#t01 th	{
     color: white;
 }
 </style>
+
+
+</body>
+</html>
