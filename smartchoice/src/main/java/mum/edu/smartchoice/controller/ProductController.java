@@ -76,7 +76,8 @@ public class ProductController {
 	@RequestMapping(value = "/listproduct/{catId}")
 	public ModelAndView allProducts(@PathVariable("catId") Long catId) {
 		ModelAndView modelAndView = new ModelAndView();
-		modelAndView.addObject("products", productService.getProductsById(catId));
+		List<Product> products = productService.getProductsById(catId);
+		modelAndView.addObject("products", products);
 		modelAndView.setViewName("listproduct");
 		return modelAndView;
 	}
