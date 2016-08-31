@@ -23,7 +23,7 @@ import mum.edu.smartchoice.service.AccountService;
 @RequestMapping("/account")
 @SessionAttributes({ "cart", "customer" })
 public class AccountController {
-
+	//test 11:41 08/31/2016
 	@Autowired
 	AccountService accountservice;
 
