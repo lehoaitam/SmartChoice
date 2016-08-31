@@ -13,6 +13,8 @@ import javax.validation.constraints.Size;
 import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.web.multipart.MultipartFile;
 
+import mum.edu.smartchoice.validator.Productcode;
+
 
 @Entity
 public class Product {
@@ -22,7 +24,10 @@ public class Product {
 	private Long id;
 	
 	@Size(min=3,max=5,message="ProductCode must be greater that 3 and less than equals to 5")
+	
+	@Productcode
 	private String productcode;
+	
 	@NotEmpty
 	private String name;
 	@NotEmpty

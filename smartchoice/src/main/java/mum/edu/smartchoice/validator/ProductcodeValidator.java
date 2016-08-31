@@ -25,11 +25,12 @@ public class ProductcodeValidator implements ConstraintValidator<Productcode, St
 		try {
 			product = productService.getProduct(productcode);
 			
-		} catch (ProductNotFoundException e) {
+		} catch (Exception e ) {
 			return true;
 		}
 		
-		if(product!= null) {
+		if(product!= null)
+		{
 			return false;
 		}
 		

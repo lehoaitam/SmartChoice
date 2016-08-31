@@ -16,7 +16,7 @@ import javax.validation.Payload;
 @Constraint(validatedBy = ProductcodeValidator.class)
 @Documented
 public @interface Productcode {
-	String message() default "{mum.edu.smartchoice.Productcode.message}";
+	String message() default "product number must be unique";
 
     Class<?>[] groups() default {};
     

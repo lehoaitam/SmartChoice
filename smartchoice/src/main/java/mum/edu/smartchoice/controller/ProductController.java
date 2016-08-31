@@ -69,6 +69,8 @@ public class ProductController {
 		productService.addProduct(product);
 		redirectAttributes.addFlashAttribute("product", product);
 		Long catId = product.getCategory().getId();
+		Category category = product.getCategory();
+		System.out.println(category);
 		redirectAttributes.addFlashAttribute("message", "Added successfully.");
 		return "redirect:listproduct/" + catId;
 	}
@@ -81,6 +83,14 @@ public class ProductController {
 		return modelAndView;
 	}
 
+	@RequestMapping(value = "/listproduct/")
+	public ModelAndView allProductsAll() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.addObject("products", productService.getAllProducts());
+		modelAndView.setViewName("listproduct");
+		return modelAndView;
+	}
+	
 	@RequestMapping(value = "/productDetailsAjax/{id}", produces = "application/json; charset=utf-8")
 	public @ResponseBody String productDetailsAjax(@PathVariable("id") Long id) {
 		Product product = productService.getUniqueProduct(id);

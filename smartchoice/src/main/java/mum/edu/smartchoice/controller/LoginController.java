@@ -49,6 +49,7 @@ public class LoginController {
 			return "redirect:admin/addCategory";
 		}
 		model.addAttribute(customer);
+		
 		if (model.containsAttribute("loginFromCheckout")) {
 
 			return "checkout";

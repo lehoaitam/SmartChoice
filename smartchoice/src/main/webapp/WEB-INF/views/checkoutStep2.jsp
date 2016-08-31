@@ -36,6 +36,7 @@
 		<%
 			int sn = 0;
 		%>
+		
 		<table border="" style="width: 100%">
 			<tr>
 				<th>SN</th>
@@ -63,6 +64,7 @@
 			<input type="button" value="Add Account"
 				onclick="make_visible('formInput');return false;">
 		</div>
+		
 		<div id="accountinfo">
 			<br>Card Type :: <b>${customer.account.cardtype}</b> <br>Card
 			Number :: <b>${customer.account.cardNo}</b> <br>Billing Adress::

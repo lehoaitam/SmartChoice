@@ -9,7 +9,9 @@ import mum.edu.smartchoice.domain.Category;
 import mum.edu.smartchoice.domain.Product;
 
 @Repository
-public interface ProductDao extends JpaRepository<Product, Long> {
+public interface ProductDao extends JpaRepository<Product, Long> 
+{
+	
 	public Product getProductByProductcode(String productcode);
 
 	public List<Product> getProductByCategory(Category category);

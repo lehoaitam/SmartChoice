@@ -26,7 +26,11 @@ public class CartController {
 
 	@RequestMapping(value = "/add/{productcode}")
 	public String addToCart(@PathVariable String productcode, @ModelAttribute("cart") Cart cart) {
+		
 		cartservice.addToCart(productcode, cart);
+		
+		System.out.println(cart.getItems().size());
+		
 		return "redirect:/";
 
 	}

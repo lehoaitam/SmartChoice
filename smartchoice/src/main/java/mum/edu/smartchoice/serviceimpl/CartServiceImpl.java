@@ -19,7 +19,10 @@ public class CartServiceImpl implements CartService {
 	@Autowired
 	ProductDao productdao;
 
-	public LineItem addToCart(String productcode, Cart cart) {
+	public LineItem addToCart(String productcode, Cart cart) 
+	{
+		System.out.println(productcode);
+		
 		Product product = productdao.getProductByProductcode(productcode);
 		if (cart.getItems() == null) {
 			cart.setItems(new ArrayList<LineItem>());

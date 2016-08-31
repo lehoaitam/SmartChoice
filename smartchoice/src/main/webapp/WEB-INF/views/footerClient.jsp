@@ -1,5 +1,5 @@
 <div style="height:100px;width:100%">
-<p style="text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;"><i>smartchoice Dev Team. &copy; 2015</i></p>
+<p style="text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;"><i>Smart Coders Dev Team. &copy; 2016</i></p>
 </div>
 <style>
 .header{

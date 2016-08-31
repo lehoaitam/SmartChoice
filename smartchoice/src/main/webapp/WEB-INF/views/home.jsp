@@ -25,6 +25,10 @@
 						<td>Category</td>
 					</tr>
 
+						<tr>
+							<td><a href='<spring:url value="/"></spring:url>'> All </a></td>
+						</tr>
+						
 					<c:forEach var="category" items="${categories}">
 						<tr>
 							<td><a href="${category.id}">${category.type}</a></td>
@@ -49,8 +53,6 @@
 								<td><input class="product" type="button"
 									value="Add to Cart"
 									onclick="addtocart('${product.productcode}')"></td>
-
-
 
 							</tr>
 							<input type="hidden" class="${product.productcode}"

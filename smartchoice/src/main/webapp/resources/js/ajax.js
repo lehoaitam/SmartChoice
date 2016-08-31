@@ -26,13 +26,16 @@ function accountSubmit() {
 			// error: function(jqXHR, textStatus, HTTPStatus ){
 			// error: function(jQuery XMLHttpRequest, "error", "Bad Request" ){
 
-			if (errorObject.responseJSON.errorType == "ValidationError") {
+			if (errorObject.responseJSON.errorType == "ValidationError") 
+			{
 				$('#success').html("");
 				$("#errors").append('<H3 align="center"> Error(s)!! <H3>');
 				$("#result").append('<p>');
 
 				var errorList = errorObject.responseJSON.errors;
 				$.each(errorList, function(i, error) {
+					$("#errors").empty();
+					$("#errors").append('<H3 align="center"> Error(s)!! <H3>');
 					$("#errors").append(error.message + '<br>');
 				});
 				$("#errors").append('</p>');

@@ -34,6 +34,7 @@ public class Account implements Serializable {
 	}
 
 	@NotEmpty
+	
 	@CreditCard
 	String cardNo;
 

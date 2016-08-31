@@ -2,7 +2,7 @@
 <p style="vertical-align:middle;text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;color:#FFFFFF;">Smartchoice Dev Team. &copy; 2016</p>
 </div> -->
 <div class="w3-container w3-blue">
-	<p style="vertical-align:middle;text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;color:#FFFFFF;">Smartchoice Dev Team. &copy; 2016</p>
+	<p style="vertical-align:middle;text-align:center;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;color:#FFFFFF;">Smart Coders Dev Team. &copy; 2016</p>
 </div>
 <style>
 #list1 {margin-top:120px;width:100%;text-align:left;font-size: 12px;font-weight: bold;font-family: verdana; }

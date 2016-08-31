@@ -29,6 +29,11 @@
 			<li><a
 				href="${pageContext.request.contextPath}/admin/addCategory">Add
 					Category</a>|</li>
+					
+				<li><a
+				href="${pageContext.request.contextPath}/admin/listproduct/2">List 
+				Products</a>|</li>
+					
 			<li><a
 				href="${pageContext.request.contextPath}/admin/addProduct">Add
 					Product</a></li>|
@@ -41,6 +46,7 @@
 		<ul class="w3-navbar w3-border w3-light-grey">
 		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/listCategory">List Category</a></li>
 		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/addCategory">Add Category</a></li>
+		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/listproduct/">List Products</a></li>
 		  <li><a class="w3-hover-blue" href="${pageContext.request.contextPath}/admin/addProduct">Add Product</a></li>
 		  <li><a class="w3-hover-blue" href="${logout}">Log out</a></li>
 		</ul>

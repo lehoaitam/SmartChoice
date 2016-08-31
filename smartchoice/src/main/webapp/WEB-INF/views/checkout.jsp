@@ -5,14 +5,14 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
 <title>smartchoice Online Store</title>
 
 </head>
 <body>
 	<%@ include file="headerClient.jsp"%>
 
-	<div align=center>
+	<div class=".well" align=center>
 		<a href="/smartchoice">Continue Shopping</a>
 	</div>
 	<div id="global">

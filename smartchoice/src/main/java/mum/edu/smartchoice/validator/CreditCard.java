@@ -17,7 +17,7 @@ import javax.validation.Payload;
 @Constraint(validatedBy = CreditCardValidator.class)
 @Documented
 public @interface CreditCard {
-	String message() default "{mum.edu.smartchoice.CreditCard.message}";
+	String message() default "Invalid card number";
 
     Class<?>[] groups() default {};
     

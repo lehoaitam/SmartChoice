@@ -11,14 +11,22 @@ public class CreditCardValidator implements ConstraintValidator<CreditCard, Stri
 	}
 
 	@Override
-	public boolean isValid(String cardNumber, ConstraintValidatorContext arg1) {
-		int digits = cardNumber.length();
+	public boolean isValid(String cardNumber, ConstraintValidatorContext arg1) 
+	{
+		String aString = "";
+		for(char c : cardNumber.toCharArray())
+			if(c!=' ')
+				aString+=c;
+		
+		int digits = aString.length();
+		System.out.println(aString.length());
+		
 		int oddOrEven = digits & 1;
 		long sum = 0;
 		for (int count = 0; count < digits; count++) {
 			int digit = 0;
 			try {
-				digit = Integer.parseInt(cardNumber.charAt(count) + "");
+				digit = Integer.parseInt(aString.charAt(count) + "");
 			} catch (NumberFormatException e) {
 				return false;
 			}
